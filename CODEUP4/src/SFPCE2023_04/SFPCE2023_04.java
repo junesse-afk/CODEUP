@@ -25,7 +25,7 @@ public class SFPCE2023_04 {
 			
 			for(int cowA = 0; cowA <= cheeze / 15; cowA++) {
 				
-				int milk = cowB * 10 + cowA * 15; // 지금까지 우유 양
+				int milk = cowB * 10 + cowA * 15; // 지금까지 생산된 우유 양
 				int result = cheeze - milk; // 남은 우유 양
 				
 				if(result >= 0 && result % 25 == 0) {

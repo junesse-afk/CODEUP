@@ -26,7 +26,7 @@ public class SFPC2023_03 {
 		 * 
 		 * student [0][0] = 3; tour[3] = 20;
 		 * student [0][1] = 5; tour[5] = 35;
-		 * 
+		 * student [0][2] = 2; tour[2] = 25;
 		 */
 
 		 int[] tour = {0, 30, 25, 20, 30, 35};

@@ -43,4 +43,24 @@ public class SFPCE2023_04 {
 
 		System.out.println(cows);
 	}
+	
+// 배열로 푸는 방식	
+//	int cheeze = 20240;
+//	int[] milk = {10, 15, 25};
+//	int[] cow = new int[cheeze + 1];
+//	
+//	for(int i = 1; i<=cheeze; i++) {
+//		cow[i] = Integer.MAX_VALUE;
+//	}
+//	
+//	for(int i = 0; i<=cheeze; i++) {
+//		for(int y : milk) {
+//			if (i + y <= cheeze && cow[i] != Integer.MAX_VALUE) {
+//				cow[i+y] = Math.min(cow[i+y], cow[i]+1);
+//			}
+//		}
+//	}
+//	
+//	System.out.println(cow[cheeze]);
+	
 }
